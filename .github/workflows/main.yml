@@ -11,3 +11,6 @@
         steps:
            - name: 'testing git hub action'
              run: pwd
+           - uses: actions/checkout@v3
+           - name: 'list'
+             run: ls
