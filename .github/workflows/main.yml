@@ -15,5 +15,5 @@
            - name: "create image"
              run: docker build -t kilaney/task2actions .
 
-           - name: "push to docker"
+           - name: "push to dockerhub"
              run: docker push kilaney/task2actions
