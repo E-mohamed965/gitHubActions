@@ -9,8 +9,6 @@
 
 
         steps:
-           - name: 'testing git hub action'
-             run: pwd
            - uses: actions/checkout@v3
-           - name: 'list'
-             run: ls
+           - name: "login to Docker hun"
+             run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_SECRET }}
