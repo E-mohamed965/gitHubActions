@@ -16,4 +16,4 @@
              run: docker build -t kilaney/task2actions .
 
            - name: "push to docker"
-             run: docker push kilanet/task2actions
+             run: docker push kilaney/task2actions
