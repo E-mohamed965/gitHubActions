@@ -13,7 +13,7 @@
            - name: "login to Docker hun"
              run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_SECRET }}
            - name: "create image"
-             run: docker build -t kilaney/task2Actions .
+             run: docker build -t kilaney/task2actions .
 
            - name: "push to docker"
-             run: docker push kilanet/task2Actions
+             run: docker push kilanet/task2actions
